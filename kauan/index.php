@@ -31,7 +31,7 @@
         while ($row=$result->fetch_assoc()){
    echo"nome:". $row ["nome"]."sobrenome :"$row ["sobrenome"]."telefone :"$row ["telefone"]."<br>";
    
-            {
+        }
         }else {
             echo"table vazia";
            }
