@@ -25,19 +25,19 @@
         die("conexão com db falhou:".$conn->connect_error);
     }
     echo"conectado ao db";
-    $sql="SELECT nome,sobrenome,telefone FROM agenda";
-    $result=$conn -> query($sql);
-    if ($result->num_rows >0){
-        while ($row=$result->fetch_assoc()){
-   echo"nome:". $row ["nome"]."sobrenome :"$row ["sobrenome"]."telefone :"$row ["telefone"]."<br>";
    
-        }
-        }else {
-            echo"table vazia";
-           }
-    
-        
-    $conn->close();
+    $sql = "SELECT nome, sobrenome, telefone FROM agenda";
+$resultado = $conn->query($sql);
+
+if ($resultado->num_rows > 0) {
+    while ($linha = $resultado->fetch_assoc()) {
+        echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["telefone"] . "<br>";
+    }
+} else {
+    echo "Nenhum registro encontrado.";
+}
+
+$conn->close();
     ?>
 </body>
 </html>
