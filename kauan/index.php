@@ -39,6 +39,8 @@ if ($resultado->num_rows > 0) {
 
 $conn->close();
     ?>
+
+    <a href="contato.php">Consultar cadastro</a>
 </body>
 </html>
 
