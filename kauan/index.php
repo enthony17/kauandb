@@ -31,7 +31,8 @@ $resultado = $conn->query($sql);
 
 if ($resultado->num_rows > 0) {
     while ($linha = $resultado->fetch_assoc()) {
-        echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["telefone"] . "<br>";
+      echo "Nome:". $row["nome"]. " Sobrenome:". $row["sobrenome"]. " Telefone:". $row["telefone"]."<br>";
+
     }
 } else {
     echo "Nenhum registro encontrado.";
