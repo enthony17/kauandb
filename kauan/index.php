@@ -13,8 +13,8 @@
 </center>
     <?php
     //kauan, ana julia, amanda
-    echo"isso é php";
-    echo" kauan";
+    echo"isso é php"<br>;
+   
     ?>
     <?php
     $servername="localhost";
