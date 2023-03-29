@@ -31,7 +31,7 @@
 $resultado = $conn->query($sql);
 
 if ($resultado->num_rows > 0) {
-    while ($linha = $resultado->fetch_assoc()) {
+    while ($row = $resultado->fetch_assoc()) {
       echo "Nome:". $row["nome"]. " Sobrenome:". $row["sobrenome"]. " Telefone:". $row["telefone"]."<br>";
 
     }
