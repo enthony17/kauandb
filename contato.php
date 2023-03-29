@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Inserir Contato</h1>
+    <center>
     <form action="contato.php" METHOD="POST">
         <label>Nome:</label><br>
         <input type="text" name="fnome"><br>
@@ -18,6 +19,7 @@
         <input type="text" name="ftelefone"><br><br>
         <input type="submit" value="Gravar">
 </form>
+</center>
 <a href="index.php">Consultar agenda</a>
 
 <?php
