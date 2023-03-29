@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Inserir Contato</h1>
-    <form action="contato.php">
+    <form action="contato.php" METHOD="POST">
         <label>Nome:</label><br>
         <input type="text" name="fnome"><br>
         <label>Sobrenome:</label><br>
