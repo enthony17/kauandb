@@ -8,7 +8,9 @@
     <title>teste php</title>
 </head>
 <body>
-    <h1> teste php</h1>
+    <center>
+    <h1>KAUAN</h1>
+</center>
     <?php
     //kauan, ana julia, amanda
     echo"isso é php";
