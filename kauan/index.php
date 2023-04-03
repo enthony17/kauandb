@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste php</title>
 </head>
-<body>
-    <footer>
-<img src="chuck.jpg" alt="killer" width="150px"> 
-</footer>
+<body>  
+
+<header>
+<div class="right">
+    <img src="./img/chuck.jpg"></img>
+    <header>
+</div>
+<header>
+
     <center>
     <h1>Sick</h1>
 </center>
