@@ -9,12 +9,9 @@
 </head>
 <body>  
 
-<header>
-<div class="right">
+<center>
     <img src="./img/chuck.jpg"></img>
-    <header>
-</div>
-<header>
+</center>
 
     <center>
     <h1>Sick</h1>
