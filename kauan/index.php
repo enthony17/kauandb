@@ -8,8 +8,9 @@
     <title>teste php</title>
 </head>
 <body>
+    <footer>
 <img src="chuck.jpg" alt="killer" width="150px"> 
-
+</footer>
     <center>
     <h1>Sick</h1>
 </center>
