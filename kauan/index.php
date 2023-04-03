@@ -8,8 +8,9 @@
     <title>teste php</title>
 </head>
 <body>
+<img src="chuck.jpg" alt="killer">
     <center>
-    <h1>KAUAN</h1>
+    <h1>Sick</h1>
 </center>
     <?php
     //kauan, ana julia, amanda

@@ -8,7 +8,7 @@
     <title>Cadastro Contato</title>
 </head>
 <body>
-    <h1>Inserir Contato</h1>
+    <h1>BEM VINDO!</h1>
     <center>
     <form action="contato.php" METHOD="POST">
         <label>Nome:</label><br>
