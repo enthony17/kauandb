@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["user_id"] = $row["id"];
 
         // Redireciona para a página de cadastro
-        header("Location: cadastro.php");
+        header("Location: contatao.php");
         exit();
     } else {
         // Exibe uma mensagem de erro caso o usuário e senha não correspondam a um registro
