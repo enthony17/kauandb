@@ -18,7 +18,7 @@
 </center>
     <?php
     //kauan, ana julia, amanda
-    echo"isso é php"<br>;
+    //echo"isso é php"<br>;
    
     ?>
     <?php
@@ -49,7 +49,7 @@ if ($resultado->num_rows > 0) {
 $conn->close();
     ?>
 
-    <a href="contato.php">Consultar cadastro</a>
+    <a href="login.php">Consultar cadastro</a>
 </body>
 </html>
 
